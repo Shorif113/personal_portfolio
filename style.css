@@ -1,4 +1,4 @@
-
+/* 
 body {
   font-family: Arial, sans-serif;
   background-image: url('images1/pexels-bri-schneiter-28802-346529.jpg'); 
@@ -77,4 +77,76 @@ main p {
 .contact a:hover {
   text-decoration: underline;
 }
+ */
+/* Custom Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
 
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Section spacing */
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Card customizations */
+.card-title {
+  font-weight: 600;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Gallery image styling */
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer (if added) */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Contact image */
+.contact-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .card-img-top {
+    height: 180px;
+  }
+}
